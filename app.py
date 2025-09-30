@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Your YouTube API key
-API_KEY = "AIzaSyAKcV5NeJDI-xpOJQgkHJYiEixIK4NXcBM"  # Replace with your actual API key
+API_KEY = ""  # Replace with your actual API key
 
 @app.route('/', methods=['GET'])
 def index():
